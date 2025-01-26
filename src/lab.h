@@ -54,7 +54,7 @@ void list_destroy(list_t **list);
 list_t *list_add(list_t *list, void *data);
 
 /**
- * @brief Remove the data at the specified index. Returns NULL if the index is invalid.
+ * @brief Remove the data at the specified index. Returns NULL if the index is invalid
  *
  * @param list The list to remove the element from.
  * @param index The index.

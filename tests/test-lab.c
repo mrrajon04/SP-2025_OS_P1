@@ -302,7 +302,7 @@ int main(void) {
   RUN_TEST(test_indexOf0);
   RUN_TEST(test_indexOf3);
   RUN_TEST(test_notInList);
-   // Run new tests for SP-2025_OS_P1
+   // Aditional new tests for SP-2025_OS_P1
   RUN_TEST(test_add_multiple);
   RUN_TEST(test_remove_empty_list);
   RUN_TEST(test_remove_last_element);
