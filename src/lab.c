@@ -80,7 +80,7 @@ void *list_remove_index(list_t *list, size_t index) {
         current = current->next;
     }
 
-    // Remove the node from the list
+    // Remove the node from the list.
     current->prev->next = current->next;
     current->next->prev = current->prev;
 
